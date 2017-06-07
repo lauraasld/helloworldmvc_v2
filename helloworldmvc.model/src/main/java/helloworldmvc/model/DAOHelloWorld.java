@@ -16,7 +16,6 @@ public class DAOHelloWorld {
 		BufferedReader bufferstock = null;
 		try {
 			bufferstock = new BufferedReader(new FileReader(DAOHelloWorld.fileName));
-			StringBuilder stringbuilder = new StringBuilder();
 			this.helloWorldMessage = bufferstock.readLine();
 		} catch (Exception e) {
 			e.printStackTrace();

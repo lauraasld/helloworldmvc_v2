@@ -38,8 +38,8 @@ public class DAOHelloWorld {
 		return this.helloWorldMessage;
 	}
 
-	protected void setHelloWorldMessage(String helloWorldMessage) {
-		this.helloWorldMessage = helloWorldMessage;
+	protected void setHelloWorldMessage(String helloWorldMessage2) {
+		this.helloWorldMessage = helloWorldMessage2;
 	}
 
 }

@@ -5,4 +5,11 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>helloworldmvc</name>
   <packaging>pom</packaging>
+  <modules>
+  	<module>helloworldmvc.controller</module>
+  	<module>helloworldmvc.model</module>
+  	<module>helloworldmvc.view</module>
+  	<module>helloworldmvc.contract</module>
+  	<module>helloworldmvc.main</module>
+  </modules>
 </project>
